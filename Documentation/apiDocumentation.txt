@@ -1,0 +1,30 @@
+GET ALL
+url/api/book
+
+GET BY ID
+url/api/book/{id}
+
+POST
+url/api/book/create
+in body 
+{
+     "name": "Atlant",
+    
+     "author": "Joe Joe",
+    
+     "price": 3.99
+}
+
+PUT
+url/api/book/update/{id}
+in body
+{
+     "name": "Atlant",
+    
+     "author": "Joe Joe",
+    
+     "price": 7.99
+}
+
+DELETE
+url/api/book/delete/{id}
